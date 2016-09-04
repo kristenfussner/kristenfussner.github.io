@@ -1,24 +1,22 @@
-<div class="header-panel shadow-z-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="row-picture">
-              <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
-            </div>
-            <h4 class="list-group-item-heading">{{ site.author }}</h4>
-            <p class="list-group-item-text">{{ site.about }}</p>
+<header id="masthead" class="site-header" role="banner">
+    <nav role="navigation" id="navbar-main">
+      <div class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.url}}">{{site.author}}</a>
           </div>
-          <div class="col-sm-4">
-            {% include social_links.html %}
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-12">
-            <div class="navbar-header pull-right">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-2x fa-bars"></i>
-              </button>
-            </div>
+          <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul id="menu-primary" class="nav navbar-nav navbar-right">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/">Home</div></a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/about">About</a></li>
+            </ul>
           </div>
         </div>
-      </div>
-    </div>
+      </div>           
+    </nav>
+  </header>

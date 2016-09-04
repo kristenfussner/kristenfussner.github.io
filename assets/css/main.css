@@ -22,7 +22,7 @@
     vertical-align: top;
 }
 .row-picture {
-    display: inline-block;
+    float: left;
     vertical-align: top;
     margin-right: 10px;
 }
@@ -156,6 +156,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 @media (max-width: 768px) {
     #portfolio-filter {
         margin-top: 0px;
+    }
+}
+@media (max-width: 420px) {
+    .row-picture {
+        float: none;
     }
 }
 footer {
