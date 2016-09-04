@@ -4,7 +4,7 @@ name: Kristen Fussner
 email: kristen@fussner.us
 description: >
     A humble Catholic mom
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "http://kristen.fussner.us" # the subpath of your site, e.g. /blog
 url: "http://kristen.fussner.us" # the base hostname & protocol for your site
 twitter_username: kristenfussner # your Twitter username
 github_username: kristenfussner # your Github username
