@@ -1,26 +1,19 @@
+# Site settings
 title: Kristen Fussner
-description: My Personal Blog
-author: Kristen Fussner
-logo: /assets/media/avatar.png
-github: https://github.com/kristenfussner
-about: Catholic mom of 2 beautiful girls
+name: Kristen Fussner
+email: kristen@fussner.us
+description: >
+    A humble Catholic mom
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://kristen.fussner.us" # the base hostname & protocol for your site
+twitter_username: kristenfussner # your Twitter username
+github_username: kristenfussner # your Github username
+disqus_username: kristenfussner # your disqus username
 
-baseurl: ""
-url: "http://kristen.fussner.us"
+google-analytics: #UA-75034651-1 # add it if you have one
 
-disqus_shortname: kenfussner
-google_analytics: 
+skillstree: false # turn on or off the skills tree in about page
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
-
-enableTags: true
-tagarray: []
-
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Build settings
+permalink: none
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
