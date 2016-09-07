@@ -9,7 +9,7 @@ tags: general school miscellaneous lifestyle
 finished: true
 ---
 
-## Preschhol
+## Preschool
 
 Since about the time I pregnant with our first, I have constantly researched schools. Asking family and friends what and how they decided on their schooling decision for their family. From their answers, I noticed a trend: depends on the child and discern year to year. Sadly, in the area we live, if we don't start our children in the Catholic school for Kindergarten, than our chances of getting in are slim. Never once was I interested in learning more about homeschooling, only public and private.
 
