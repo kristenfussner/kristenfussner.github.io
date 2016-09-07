@@ -10,10 +10,8 @@ twitter_username: kristenfussner # your Twitter username
 github_username: kristenfussner # your Github username
 disqus_username: kristenfussner # your disqus username
 
-google-analytics: #UA-75034651-1 # add it if you have one
-
-skillstree: false # turn on or off the skills tree in about page
+#google-analytics: UA-75034651-1 # add it if you have one
 
 # Build settings
-permalink: none
+permalink: pretty
 markdown: kramdown
